@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>CSS Selectors Example </title>
+<style>
+/* Type Selector */
+p
+{
+color: darkblue;
+}
+/*Class Selector*/
+.btn 
+{
+background-color:darkgreen;
+padding:12px;
+color:white;
+}
+/* ID Selector */
+#main-header 
+{
+color: red;
+font-size: 32px;
+}
+/*Child Selector*/
+h1 >p
+{
+font-weight:bold;
+}
+/*Attribute Selector*/
+a[target="_blank"]
+{
+color:lightorange;
+}
+body
+{
+background: linear-gradient(#ffc30b,#ff5722); /* Gradient From Yellow to Orange * /
+}
+</style>
+</head>
+<body>
+<h1> This Is Heading 1 </h1>
+<h2>This Is Heading 2 </h2>
+<p> This paragragh wil have blue text because of the type selector.</p>
+<a href="https://www.example.com"Target="_blank">This link will be purple because it has target="_blank". </a>
+<button class="btn"> <a href="/home/rvk/Desktop/Grade 8 Ahilyabai - Bhuvik MM/New Code.html">Click Me </button> </a>
+<h1 id="main-header"> This header is styled using an ID Selector </h1>
+<h1> Another Heading 1 </h1>
+<P>This paragaraph inside an <h1> will be bold because of the Child Selector. </p>
+</body>
+</html>
+
+
