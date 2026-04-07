@@ -1,0 +1,109 @@
+1)Write a Python program to swap 2 numbers
+Input
+a=int(input("Enter first number:"))
+b=int("Enter second number:"))
+
+a,b=b,a
+
+print("after swapping :")
+print("a=",a)
+print("b=",b)
+
+Output
+
+Enter first number:10
+Enter second number:7
+After swapping:
+a=7
+b=10
+
+2.Write a python program to print number from 1to 10
+
+Input 
+
+for I In range (1,11):
+print I
+
+Output
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+3.Write a python program to find cube of a number
+
+Input
+
+num=int(input("enter a number:"))
+print=("cube",num*num*num)
+
+Output
+Enter a number:7
+cube=343
+
+4.Write a python program to find a square of a number
+
+Input
+
+num=int(input("enter a number:"))
+print=("square",num*num)
+
+Output 
+Enter a number:10
+square=100
+
+5.Write a python program to print multiplication take of a number
+
+Input
+
+num=int(input("enter a number:"))
+For I in range (1,11):
+             print(num,"x",I,"=",num*!)
+
+
+Output
+Enter a number:7
+7 × 1 = 7	7 × 6 = 42
+7 × 2 = 14	7 × 7 = 49
+7 × 3 = 21	7 × 8 = 56
+7 × 4 = 28	7 × 9 = 63
+7 × 5 = 35	7 × 10 = 70
+
+6.Write a python program to find the length of a string
+
+Input
+
+text=input("Enter a word:")
+print=("length=",ten (text))
+
+Output
+enter a word: Bhuvik MM
+length:8
+
+7.Write a python program to display a message [5 times]
+Save it as message.py
+
+Input 
+
+for I in range (5)
+print ("We have entered 9th grade")
+
+Output
+
+We have entered 9th grade
+We have entered 9th grade
+We have entered 9th grade
+We have entered 9th grade
+We have entered 9th grade 
+
+
+
+
+
+
