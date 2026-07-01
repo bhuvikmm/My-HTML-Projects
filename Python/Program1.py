@@ -1,0 +1,10 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("The sum of two numbers is:", a + b)
+print("The difference of two numbers is:", a - b)
+print("The product of two numbers is:", a * b)
+print("The quotient of the division operation is:", a / b)
+print("The remainder of the division operation is:", a % b)
+print("The result of the floor division is:", a // b)
+print(a, "raised to the power", b, "is:", a ** b)

@@ -1,0 +1,76 @@
+1]
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("The sum of two numbers is:", a + b)
+print("The difference of two numbers is:", a - b)
+print("The product of two numbers is:", a * b)
+print("The quotient of the division operation is:", a / b)
+print("The remainder of the division operation is:", a % b)
+print("The result of the floor division is:", a // b)
+print(a, "raised to the power", b, "is:", a ** b)
+
+2]
+h = float(input("Enter the height of the triangle: "))
+b = float(input("Enter the base of the triangle: "))
+
+area = 0.5 * (b * h)
+
+print("The area of the triangle is:", area)
+
+3]
+x = int(input("Enter the first value: "))
+y = int(input("Enter the second value: "))
+
+x += y
+print("After x+=y, x=", x)
+
+x -= y
+print("After x-=y, x=", x)
+
+x *= y
+print("After x*=y, x=", x)
+
+x /= y
+print("After x/=y, x=", x)
+
+x %= y
+print("After x%=y, x=", x)
+
+x **= y
+print("After x**=y, x=", x)
+
+x //= y
+print("After x//=y, x=", x)
+
+4]
+a = 10
+b = 20
+
+print("a > b :", a > b)   
+print("a < b :", a < b)   
+print("a == b :", a == b) 
+print("a != b:", a != b)  
+print("a >= b:", a >= b)  
+print("a <= b :", a <= b) 
+
+5]
+x = 9
+print(x > 5 and x < 15)
+
+x = 9
+print(x > 5 or x < 2)
+
+x = 9
+print(not (x > 5 and x < 15))
+
+6]
+str1 = "Hello"
+str2 = "How are you?"
+
+print(str1 + " " + str2)
+
+7]
+str1 = "Welcome "
+
+print(str1 * 4)
